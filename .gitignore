@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+java-mq.iml
+chapter01_java/chapter01_java.iml
+chapter02_activemq/chapter02_activemq.iml
+chapter03_rabbitmq/chapter03_rabbitmq.iml
+chapter04_rocketmq/chapter04_rocketmq.iml
+chapter05_kafka/chapter05_kafka.iml
