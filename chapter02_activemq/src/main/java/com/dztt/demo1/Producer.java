@@ -10,12 +10,14 @@ import java.util.Map;
 
 @RestController
 public class Producer {
-    //注入jsmtemplate
     @Autowired
     private JmsMessagingTemplate jmsMessagingTemplate;
 
     @RequestMapping("/sendMsg")
     public void sendMsg(String msg) {
+        if(msg == null){
+            msg ="default msg";
+        }
         jmsMessagingTemplate.convertAndSend("my_msg", msg);
         System.out.println("msg发送成功");
     }
