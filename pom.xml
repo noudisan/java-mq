@@ -16,7 +16,7 @@
         <module>chapter02_activemq</module>
         <module>chapter03_rabbitmq</module>
         <module>chapter04_rocketmq</module>
-        <module>chapter04_kafka</module>
+        <module>chapter05_kafka</module>
     </modules>
 
     <properties>
